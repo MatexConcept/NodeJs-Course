@@ -1,0 +1,7 @@
+2023-26-18		11:26:57	 306b2436-2272-4d55-bbb0-f8bb390cab92	 Error, Not allowed by CORS 
+2023-26-18		11:26:57	 f53b4ec4-7d8b-497b-a924-b6aa3252d1c8	 Error, Not allowed by CORS 
+2023-27-18		11:27:37	 b1fe20bf-b13d-46e5-9462-b525de72f4e6	 Error, Not allowed by CORS 
+2023-27-18		11:27:37	 041907a8-b84a-46d7-9735-753f1d724f73	 Error, Not allowed by CORS 
+
+2023-44-18		11:44:11	 284c1d34-4036-4674-98a3-1a25ddb76598	 Error, Not allowed by CORS 
+2023-44-18		11:44:11	 c12b7e06-09b5-4ae7-957b-6c9a960e5901	 Error, Not allowed by CORS 

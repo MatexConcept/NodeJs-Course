@@ -1,0 +1,140 @@
+{
+    "Cohorts" : [
+        {
+            "title" : "Cohort One",
+            "num": 100,
+            "duration" : "6 month",
+            "location" : "pegamut",
+            "Activities": {
+                "indoor" : "whot",
+                "outdoor" : "football",
+                "fun" : "Happy hour"
+            },
+            "classes" : "Phyisal, Online"
+            
+        },
+        {
+            "title" : "Cohort Two",
+            "num": 100,
+            "duration" : "6 month",
+            "location" : "pegamut",
+            "Activities": {
+                "indoor" : "whot",
+                "outdoor" : "football",
+                "fun" : "Happy hour"
+            },
+            "classes" : "Phyisal, Online"
+            
+        },
+        {
+            "title" : "Cohort Three",
+            "num": 100,
+            "duration" : "6 month",
+            "location" : "pegamut",
+            "Activities": {
+                "indoor" : "whot",
+                "outdoor" : "football",
+                "fun" : "Happy hour"
+            },
+            "classes" : "Phyisal, Online"
+            
+        },
+        {
+            "title" : "Cohort Four",
+            "num": 100,
+            "duration" : "6 month",
+            "location" : "pegamut",
+            "Activities": {
+                "indoor" : "whot",
+                "outdoor" : "football",
+                "fun" : "Happy hour"
+            },
+            "classes" : "Phyisal, Online"
+            
+        },
+        {
+            "title" : "Cohort Five",
+            "num": 100,
+            "duration" : "6 month",
+            "location" : "pegamut",
+            "Activities": {
+                "indoor" : "whot",
+                "outdoor" : "football",
+                "fun" : "Happy hour"
+            },
+            "classes" : "Phyisal, Online"
+            
+        },
+
+        {
+            "title" : "Cohort Six",
+            "num": 100,
+            "duration" : "6 month",
+            "location" : "pegamut",
+            "Activities": {
+                "indoor" : "whot",
+                "outdoor" : "football",
+                "fun" : "Happy hour"
+            },
+            "classes" : "Phyisal, Online"
+            
+        },
+
+        {
+            "title" : "Cohort Seven",
+            "num": 100,
+            "duration" : "6 month",
+            "location" : "pegamut",
+            "Activities": {
+                "indoor" : "whot",
+                "outdoor" : "football",
+                "fun" : "Happy hour"
+            },
+            "classes" : "Phyisal, Online"
+            
+        },
+
+        {
+            "title" : "Cohort Eight",
+            "num": 100,
+            "duration" : "6 month",
+            "location" : "pegamut",
+            "Activities": {
+                "indoor" : "whot",
+                "outdoor" : "football",
+                "fun" : "Happy hour"
+            },
+            "classes" : "Phyisal, Online"
+            
+        },
+
+        {
+            "title" : "Cohort Nine",
+            "num": 100,
+            "duration" : "6 month",
+            "location" : "pegamut",
+            "Activities": {
+                "indoor" : "whot",
+                "outdoor" : "football",
+                "fun" : "Happy hour"
+            },
+            "classes" : "Phyisal, Online"
+            
+        },
+
+        {
+            "title" : "Cohort Ten",
+            "num": 100,
+            "duration" : "6 month",
+            "location" : "pegamut",
+            "Activities": {
+                "indoor" : "whot",
+                "outdoor" : "football",
+                "fun" : "Happy hour"
+            },
+            "classes" : "Phyisal, Online"
+            
+        } 
+      
+    ]
+}
