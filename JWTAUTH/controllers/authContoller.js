@@ -27,13 +27,13 @@ const handleLogin = async (req, res) => {
 
         //create jwts
         const accessToken = jwt.sign(
-            {username: foundUser.username},
+            {'username': foundUser.username},
             process.env.ACCESS_TOKEN_SECRET,
             {expiresIn: '30s'}
         );
 
         const refreshToken = jwt.sign(
-            {username: foundUser.username},
+            {"username": foundUser.username},
             process.env.REFRESH_TOKEN_SECRET,
             {expiresIn: '1d'}
         );
@@ -43,11 +43,11 @@ const handleLogin = async (req, res) => {
         const currentUser = {...foundUser, refreshToken}
         userDB.setUser([...otherUser, currentUser])
 
-        await fsPromise.writeFile( path.join(__dirname, '..', 'models', 'user.json'), JSON.stringify(userDB.users) )
+        await fsPromise.writeFile( path.join(__dirname, '..', 'models', 'users.json'), JSON.stringify(userDB.users) )
 
 
         res.cookie('jwt', refreshToken, {httpOnly: true,  maxAge: 24 * 60 * 60 * 1000 })
-        return res.status(200).json({accessToken})
+        return res.status(200).json({ accessToken })
     } else {
         return res.status(401).json({message: 'Password Mismatch'})
    

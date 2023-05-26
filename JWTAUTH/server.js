@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const {logger} = require('./middleware/logEvent')
 const errorHandler = require('./middleware/errorHandler')
-const PORT = process.env.PORT || 4500
+const PORT = process.env.PORT || 2000
 const corsOptions = require('./config/corsOptions')
 const cookieParser = require('cookie-parser')
 
@@ -20,6 +20,7 @@ app.use(express.urlencoded({extended: false}))
 
 // buit-in middleware for json data
 app.use(express.json())
+app.use(cookieParser())
 
 app.use(cors(corsOptions))
 
@@ -38,6 +39,8 @@ app.use('/register', require("./routes/register"))
 // login route
 app.use('/auth', require("./routes/auth"))
 
+
+app.use('/logout', require('./routes/logout'))
 
 app.use('/refresh', require("./routes/refresh"))
 

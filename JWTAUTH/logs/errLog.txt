@@ -22,3 +22,4 @@
 2023-59-24		12:59:03	 6c217276-7377-4063-9f4f-592d5523e1f9	 TypeError, req.headers is not a function 
 2023-00-24		13:00:05	 61b5a5a8-7671-4302-b2f2-ecae534ad5e1	 TypeError, req.headers is not a function 
 2023-01-24		13:01:49	 5e5e35d2-15f8-4490-af45-29b360c61e43	 TypeError, req.headers is not a function 
+2023-59-25		09:59:10	 ccefccbd-e575-477f-9258-0517e0bd5d6c	 TypeError, Cannot read properties of undefined (reading 'jwt') 
