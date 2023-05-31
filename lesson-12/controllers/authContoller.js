@@ -24,12 +24,12 @@ const handleLogin = async (req, res) => {
     //evaluate password
     const match =  await bcrypt.compare(pwd, foundUser.password)
     if(match) {
-        const roles = Object.values(foundUser.username)
+        const roles = Object.values(foundUser.roles)
         //create jwts
         const accessToken = jwt.sign(
-            {"userInfo": {
-                "username" : foundUser.username,
-                "roles" : roles
+            {userInfo: {
+                username : foundUser.username,
+                roles : roles
                 }
             },
             process.env.ACCESS_TOKEN_SECRET,
@@ -50,7 +50,7 @@ const handleLogin = async (req, res) => {
         await fsPromise.writeFile( path.join(__dirname, '..', 'models', 'users.json'), JSON.stringify(userDB.users) )
 
 
-        res.cookie('jwt', refreshToken, {httpOnly: true,  maxAge: 24 * 60 * 60 * 1000 })
+        res.cookie('jwt', refreshToken, {httpOnly: true, sameSite: "None", secure: true, maxAge: 24 * 60 * 60 * 1000 })
         return res.status(200).json({accessToken})
     } else {
         return res.status(401).json({message: 'Password Mismatch'})

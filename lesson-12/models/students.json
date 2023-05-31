@@ -2,7 +2,7 @@
    
         {
             "id" : 1, 
-            "firstnmae": "Akeem",
+            "firstname": "Akeem",
             "lastname" : "Balogun"
 
             
@@ -10,21 +10,12 @@
         {
             
             "id" : 2, 
-            "firstnmae": "Abu",
+            "firstname": "Abu",
             "lastname" : "Eba"
-        },
-        {
-        
-            "id" : 3, 
-            "firstnmae": "Matex",
-            "lastname" : "Concept"
-            
-        },
-        {
-            "id" : 4, 
-            "firstnmae": "Rokeeba",
-            "lastname" : "Oladimeji"
         }
+        
+        
+       
     
     
     ]
